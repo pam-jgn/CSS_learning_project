@@ -1,13 +1,29 @@
 ﻿@charset "UTF-8";
+html {
+    font-size: 100%;
+}
 body {
     background-color: #eef570;
 }
-h1 {
+article h1 {
+    font-family: serif;
     color: #0bd;
+    font-size: 2rem;
 }
-p {
+article h2{
+    font-family: "游ゴシック体", "Yu Gothic", sans-serif;
     font-size: 20px;
 }
+article p {
+    font-family: "ヒラギノ丸ゴ Pro W4", "Hiragino Maru Gothic Pro", "Malgun Gothic", sans-serif;
+    line-height: 1.7;
+    text-align: justify;
+}
 div p{
+    font-family: 'Malgun Gothic', sans-serif;
+    font-weight: bold;
     color: red;
+}
+p {
+    font-family: 'Malgun Gothic', sans-serif;
 }
