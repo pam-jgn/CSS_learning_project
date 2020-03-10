@@ -1,3 +1,13 @@
-﻿body
-{
+﻿@charset "UTF-8";
+body {
+    background-color: #eef570;
+}
+h1 {
+    color: #0bd;
+}
+p {
+    font-size: 20px;
+}
+div p{
+    color: red;
 }
