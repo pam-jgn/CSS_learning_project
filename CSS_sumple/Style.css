@@ -3,8 +3,14 @@ html {
     font-size: 100%;
 }
 body {
-    background-color: #4cff00;
+    /*background-color: #808080;
+    background-image: url(images/宇宙背景.jpg);
+    background-repeat: no-repeat;
+    background-position: 30px 80px; */
+    background: #808080 url(images/宇宙背景.jpg) no-repeat center bottom/cover;
+    height: 100vh;
 }
+
 article h1 {
     font-family: 'Noto Serif JP', serif;
     background-color: #808080;
@@ -20,6 +26,7 @@ article p {
     font-family: "ヒラギノ丸ゴ Pro W4", "Hiragino Maru Gothic Pro", "Malgun Gothic", sans-serif;
     line-height: 1.7;
     text-align: justify;
+    color: #ffffff
 }
 div p{
     font-family: 'Malgun Gothic', sans-serif;
@@ -28,4 +35,5 @@ div p{
 }
 p {
     font-family: 'Malgun Gothic', sans-serif;
+    color: #4cff00
 }
