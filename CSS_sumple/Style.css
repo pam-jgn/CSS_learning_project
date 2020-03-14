@@ -13,6 +13,7 @@ body {
 }
 
 article h1 {
+    border-bottom: 20px solid red;
     font-family: 'Noto Serif JP', serif;
     background-color: #808080;
     width: 400px;
@@ -21,6 +22,7 @@ article h1 {
     font-size: 2rem;
 }
 article h2 {
+    border: 5px dotted tomato;
     background-color: #ffffff;
     /*上に30px、右に0px、下に0px、左に100pxのマージン指定*/
     margin: 30px 0 0 100px;
@@ -30,6 +32,9 @@ article h2 {
     color: #4800ff;
 }
 article p {
+    border-width: medium;
+    border-style:solid;
+    border-color: tomato;
     background-color: #4800ff;
     padding: 20px 20px 20px 20px;
     font-family: "ヒラギノ丸ゴ Pro W4", "Hiragino Maru Gothic Pro", "Malgun Gothic", sans-serif;
@@ -41,15 +46,27 @@ article p {
 
 div{
     width: 200px;
+    height: 100px;
 }
 div p {
+    margin: 30px 30px 30px 30px;
+    border-width: 5px;
+    border-style: double dotted solid ridge;
+    border-color: tan #0026ff tomato #000;
     background-color: #4cff00;
     width: 50%;/*200pxの50%だけ表示*/
+    height: 50%;
     font-family: 'Malgun Gothic', sans-serif;
+    padding: 20px 20px 20px 20px;
     font-weight: bold;
     color: red;
 }
-p {
+div2 p {
+    margin: 30px 30px 30px 30px;
+    background-color: #ffffff;
+    width: 500px;
+    border-width: 1px 4px 8px 12px;
+    border-style: solid;
     font-family: 'Malgun Gothic', sans-serif;
     color: #4cff00
 }
