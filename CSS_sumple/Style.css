@@ -7,6 +7,7 @@ body {
     background-image: url(images/宇宙背景.jpg);
     background-repeat: no-repeat;
     background-position: 30px 80px; */
+ 
     background: #808080 url(images/宇宙背景.jpg) no-repeat center bottom/cover;
     height: 100vh;
 }
@@ -14,21 +15,36 @@ body {
 article h1 {
     font-family: 'Noto Serif JP', serif;
     background-color: #808080;
+    width: 400px;
+    height: 100px;
     color: gold;
     font-size: 2rem;
 }
-article h2{
+article h2 {
+    background-color: #ffffff;
+    /*上に30px、右に0px、下に0px、左に100pxのマージン指定*/
+    margin: 30px 0 0 100px;
+    padding: 40px;
     font-family: "游ゴシック体", "Yu Gothic", sans-serif;
     font-size: 20px;
-    color: rgba(180, 130, 29, 0.5);
+    color: #4800ff;
 }
 article p {
+    background-color: #4800ff;
+    padding: 20px 20px 20px 20px;
     font-family: "ヒラギノ丸ゴ Pro W4", "Hiragino Maru Gothic Pro", "Malgun Gothic", sans-serif;
+    font-size:16px;
     line-height: 1.7;
     text-align: justify;
     color: #ffffff
 }
-div p{
+
+div{
+    width: 200px;
+}
+div p {
+    background-color: #4cff00;
+    width: 50%;/*200pxの50%だけ表示*/
     font-family: 'Malgun Gothic', sans-serif;
     font-weight: bold;
     color: red;
