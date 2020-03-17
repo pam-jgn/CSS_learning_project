@@ -8,7 +8,7 @@ body {
     background-repeat: no-repeat;
     background-position: 30px 80px; */
  
-    background: #808080 url(images/宇宙背景.jpg) no-repeat center bottom/cover;
+    background: #808080 url(images/背景.png) no-repeat center bottom/cover;
     height: 100vh;
 }
 
@@ -85,6 +85,21 @@ ol {
     list-style-position: inside;*/
     list-style: hiragana inside;
 }
-ol li{
+ol li {
     background-color: tomato;
+}
+p {
+    color: #999;
+}
+.blue {
+    color: #0bd;
+}
+#orange{
+    color: #fa2;
+}
+#blue {
+    color: #0bd;
+}
+.orange {
+    color: #fa2;
 }
