@@ -70,3 +70,21 @@ div2 p {
     font-family: 'Malgun Gothic', sans-serif;
     color: #4cff00
 }
+ul{
+    background-color: #ffffff;
+    /*list-style-type: square;
+    list-style-position: outside;*/
+    list-style: square outside;
+}
+ul li{
+    background-color: tomato;
+}
+ol {
+    background-color: #ffffff;
+    /*list-style-type: hiragana;
+    list-style-position: inside;*/
+    list-style: hiragana inside;
+}
+ol li{
+    background-color: tomato;
+}
